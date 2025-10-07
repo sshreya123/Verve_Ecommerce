@@ -48,11 +48,15 @@ const Productdisplay = (props) => {
                         <div>M</div>
                         <div>L</div>
                         <div>XL</div>
-                        <div>XXL</div>
+                        <div>XXL</div> 
+                        
+
                     </div>
+                    
 
                 </div>
                 <button onClick={()=> {addToCart(product.id)}}>ADD TO CART</button>
+               
                 <p className="productdisplay-category"><span>Category :</span>Women , T-Shirt, Crop-Top</p>
                 <p className="productdisplay-category"><span>Tags :</span>Modern , Latest</p>
             </div>

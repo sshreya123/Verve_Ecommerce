@@ -1,4 +1,4 @@
-.Popular{
+.popular{
     
     display: flex;
     flex-direction: column;
@@ -7,16 +7,18 @@
     height: 90vh;
     
 }
-.Popular h1{
+.popular h1{
     color: #171717;
     font-size: 50px;
     font-weight: 600;
 }
-.Popular hr{
+.popular hr{
     width: 200px;
     height: 6px;
-    border-radius: 10px;
-    background: #252525;
+   border: 3px solid #252525; 
+   border-radius: 10px;
+   /* background: #252525; */
+    
  }
  .popular-item{
     /* margin-top: 50px;
@@ -24,16 +26,83 @@
     gap: 10px;
     padding: 0 20px;
   box-sizing: border-box;  */
-  margin-top: 50px;
+  /* margin-top: 50px;
   display: flex;
   justify-content: space-between; /* Distribute space evenly between items */
-  padding: 0 20px; /* Add padding to the left and right ends */
-  box-sizing: border-box; /* Include padding in total width */
-  max-width: 1200px; /* Set a maximum width for the container */
-  width: 100%; /* Take up the full width of the parent container */
-  margin-left: auto; /* Auto margin on left to center the container */
-  margin-right: auto; /* Auto margin on right to center the container */
+  /* padding: 0 20px; /* Add padding to the left and right ends */
+  /* box-sizing: border-box;  */
+  /* max-width: 1200px;  */
+  /* width: 100%;  */
+  /* margin-left: auto;  */
+  /* margin-right: auto; */
+  margin-top: 50px;
+  display: flex;
+  gap: 30px;
   
  
  
+ }
+ @media(max-width:1280px){
+    .popular{
+        height: 70vh;
+    }
+    .popular h1{
+        font-size: 40px;
+    }
+    .popular hr{
+        width: 160px;
+        height: 4px;
+        
+    }
+    .popular-item{
+        gap: 20px;
+        margin-top: 30px;
+    }
+ }
+ @media(max-width:1024px){
+    .popular{
+        height: 60vh;
+    }
+    .popular h1{
+        font-size: 30px;
+    }
+    .popular hr{
+        width: 120px;
+       height: 3px;
+        
+        
+    }
+    .popular-item{
+        gap: 15px;
+        margin-top: 20px;
+    }
+ }
+ @media(max-width:800px){
+    .popular{
+        height: 50vh;
+        gap: 6px;
+    }
+    .popular h1{
+        font-size: 20px;
+    }
+    .popular hr{
+        width: 100px;
+      
+        
+        
+    }
+    .popular-item{
+        gap: 5px;
+       
+    }
+ }
+ @media(max-width:500px){
+    .popular{
+        height: 90vh;
+    }
+    .popular-item{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
  }

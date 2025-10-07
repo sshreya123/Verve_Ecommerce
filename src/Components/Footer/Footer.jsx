@@ -17,6 +17,7 @@ const Footer = () => {
         <li>Offices</li>
         <li>About</li>
         <li>Contact</li>
+        
     </ul>
     <div className="footer-social-icon">
         <div className="footer-icons-container">

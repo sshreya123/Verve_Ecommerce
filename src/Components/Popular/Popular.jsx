@@ -5,7 +5,7 @@ import Item from '../Items/Item';
 
 const Popular = () => {
   return (
-    <div className='Popular'>
+    <div className='popular'>
       <h1>POPULAR IN WOMEN</h1>
       <hr />
       <div className="popular-item">
