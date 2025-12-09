@@ -94,3 +94,30 @@
     color: white;
     cursor: pointer;
 }
+@media (max-width: 1024px) {
+    .cartitems {
+        margin: 60px 40px;
+    }
+
+    .cartitems-format-main {
+        grid-template-columns: 1fr 2fr 1fr 1fr;
+        gap: 25px;
+        font-size: 16px;
+    }
+
+    .cartitems-down {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .cartitems-total {
+        margin-right: 0;
+    }
+
+    .cartitems-promobox {
+        width: 100%;
+    }
+    .cartitems-promobox button{
+        margin-top: 15px;
+    }
+}
